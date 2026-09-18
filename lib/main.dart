@@ -6,9 +6,9 @@ void main() {
     MaterialApp(
       title: 'Central de Incidentes',
       theme: ThemeData(
-        colorSchemeSeed: const Color(0xFF0D9488),
+        colorSchemeSeed: Colors.teal,
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF0D9488),
+          backgroundColor: Colors.teal,
           foregroundColor: Colors.white,
         ),
       ),

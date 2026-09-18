@@ -17,13 +17,13 @@ String textoDaSeveridade(Severidade severidade) {
 Color corDaSeveridade(Severidade severidade) {
   switch (severidade) {
     case Severidade.critico:
-      return const Color(0xFFDC2626);
+      return Colors.red;
     case Severidade.alto:
-      return const Color(0xFFEA580C);
+      return Colors.orange;
     case Severidade.medio:
-      return const Color(0xFFCA8A04);
+      return Colors.amber;
     case Severidade.baixo:
-      return const Color(0xFF2563EB);
+      return Colors.blue;
   }
 }
 
@@ -54,11 +54,11 @@ String textoDoStatus(StatusIncidente status) {
 Color corDoStatus(StatusIncidente status) {
   switch (status) {
     case StatusIncidente.aberto:
-      return const Color(0xFFDC2626);
+      return Colors.red;
     case StatusIncidente.emAndamento:
-      return const Color(0xFFCA8A04);
+      return Colors.amber;
     case StatusIncidente.resolvido:
-      return const Color(0xFF16A34A);
+      return Colors.green;
   }
 }
 
